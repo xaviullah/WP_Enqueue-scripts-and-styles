@@ -12,6 +12,7 @@ function neuron_theme_files() {
   wp_enqueue_style( 'bootsnav', get_template_directory_uri() .' /assets/css/bootsnav.css', array(), '1.0', 'all' );  
   wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/bootstrap/css/bootstrap.min.css', array(), '1.0', 'all' );
     
+    /** for style.css */
   wp_enqueue_style( 'neuron-style', get_stylesheet_uri() ); 
 
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/bootstrap/js/bootstrap.min.js', array('jquery'), '1.0', true );
